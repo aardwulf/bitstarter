@@ -2,7 +2,7 @@ var express = require('express');
 var fs = require('fs');
 var app = express.createServer(express.logger());
 
-var filer = fs.readFileSync('/home/ubuntu/bitstarter/bitstarter/index.html');
+var filer = fs.readFileSync('index.html');
 // var buf = new Buffer(256);
 var index = filer.toString();
 
